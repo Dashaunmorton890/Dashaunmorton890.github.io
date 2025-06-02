@@ -1,10 +1,15 @@
 body {
+  background-color: black;
   margin: 0px;
 }
 
 canvas {
   background-color: lightblue;
-  margin: 20px;
+  background-image:  url(https://static.wikia.nocookie.net/callofduty/images/1/14/Shadows_of_Evil_Menu_Selection_BO3.png/revision/latest?cb=20240702060940);
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  margin: 150px;
 }
 
 img {
