@@ -7,6 +7,7 @@ var init = function (window) {
         app = window.opspark.makeApp(),
         canvas = app.canvas,
         view = app.view,
+        
         fps = draw.fps('#000');
        
    
@@ -60,7 +61,7 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 / TODO 8 : Iterate over the array to update position
-            for (var i = 0; i < circles.length; i++) {
+            for (var i = 0; i < circles.length; i++) {  
                 physikz.updatePosition(circles[i]);
                 // TODO 5 / TODO 9 : Call game.checkCirclePosition() on each circle
                 game.checkCirclePosition(circles[i]);
