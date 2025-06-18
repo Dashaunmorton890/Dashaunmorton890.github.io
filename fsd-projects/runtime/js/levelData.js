@@ -15,9 +15,22 @@ var makeLevelData = function (window) {
         number: 1,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
-          { type: "sawblade", x: 900, y: groundY },
+          { type: "sawblade", x: 400, y: groundY - 125, damage: 10},
+          { type: "sawblade", x: 400, y: groundY - 125, damage: 10},
+          { type: "sawblade", x: 400, y: groundY - 125, damage: 10},
+          { type: "sawblade", x: 600, y: groundY - 125, damage: 10},
+           { type: "sawblade", x: 1500, y: groundY - 100, damage: 15},
+            { type: "sawblade", x: 1300, y: groundY - 100, damage: 15},
+             { type: "sawblade", x: 1400, y: groundY - 100, damage: 15},
+               { type: "sawblade", x: 800, y: groundY , damage: 15},
+               { type: "sawblade", x: 700, y: groundY , damage: 15},
+          { type: "sawblade", x: 900, y: groundY - 125, damage: 15},
+          { type: "enemy", x: 400, y: groundY - 50, speed: -3, image: "img/enemypanzer.png", offsetX: -35, offsetY: -25, scale: 0.1},
+            { type: "enemy",  x: 1600, y: groundY - 50, speed: -2, image: "img/enemyzombie.png", offsetX: -35, offsetY: -25, scale: 0.3},
+          { type: "enemy",  x: 900, y: groundY - 50, speed: -2, image: "img/enemyzombie.png", offsetX: -35, offsetY: -25, scale: 0.3},
+          { type: "enemy",  x: 1200, y: groundY - 50, speed: -2, image: "img/enemypanzer.png", offsetX: -35, offsetY: -25, scale: 0.1},
+          { type: "reward",  x: 500, y: groundY - 75, speed: -3},
+          { type: "marker",  x: 1500, y: groundY - 75, speed: -3},
         ],
       },
       {
@@ -28,6 +41,13 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 400, y: groundY },
           { type: "sawblade", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "sawblade", x: 1400, y: groundY - 100, damage: 15},
+          { type: "sawblade", x: 800, y: groundY , damage: 15},
+          { type: "sawblade", x: 700, y: groundY , damage: 15},
+          { type: "sawblade", x: 900, y: groundY - 125, damage: 15},
+         
+
+
         ],
       },
     ];
